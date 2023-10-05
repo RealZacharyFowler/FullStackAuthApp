@@ -22,9 +22,9 @@ function App() {
 
       {/* create routes here */}
       <Routes>
-        <Route exact path="/" component={Account} />
-        <Route exact path="/free" component={FreeComponent} />
-        <Route exact path="/auth" component={AuthComponent} />
+        <Route exact path="/" element={<Account />} />
+        <Route exact path="/free" element={<FreeComponent />} />
+        <Route exact path="/auth" element={<AuthComponent />} />
       </Routes>
     </Container>
   );
